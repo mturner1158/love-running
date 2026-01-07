@@ -68,6 +68,10 @@ nav {
     top: 100%;
 }
 
+.active {
+    border-bottom: solid 1px;
+}
+
 /* nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -81,9 +85,6 @@ nav {
     font-size: 2rem;
 }
 
-.active {
-    border-bottom: solid 1px;
-}
 
 /* Hero Section */
 /*#hero {
@@ -105,3 +106,26 @@ footer {
     background-color: orange;
 }
 
+/* media query: tabkets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
