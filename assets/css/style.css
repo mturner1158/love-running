@@ -86,19 +86,20 @@ nav {
 }
 
 
-/* Hero Section */
-/*#hero {
-    height: 600px;
-    width: 100%;
-    background-color: url(../images/hero-image.webp) no-repeat center center/cover;
-}*/
+
 
 /* Main Content */
 main {
-    background-color: aquamarine;
+    
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* footer */
