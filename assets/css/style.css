@@ -21,7 +21,12 @@ body {
 
 /*header*/
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* h1 formatting */
@@ -31,14 +36,15 @@ h1 {
 }
 
 /* Hero Section */
-#hero {
+/*#hero {
     height: 600px;
     width: 100%;
     background-color: url(../images/hero-image.webp) no-repeat center center/cover;
-}
+}*/
 
 /* Main Content */
 main {
+    background-color: aquamarine;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
